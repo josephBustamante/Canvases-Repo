@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1494C10A17EE4AA1003B679F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1494C10917EE4AA1003B679F /* UIKit.framework */; };
+		1494C10C17EE4AA1003B679F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1494C10B17EE4AA1003B679F /* Foundation.framework */; };
+		1494C10E17EE4AA1003B679F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1494C10D17EE4AA1003B679F /* CoreGraphics.framework */; };
+		1494C11017EE4AA1003B679F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1494C10F17EE4AA1003B679F /* CoreData.framework */; };
+		1494C11617EE4AA1003B679F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1494C11417EE4AA1003B679F /* InfoPlist.strings */; };
+		1494C11817EE4AA1003B679F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C11717EE4AA1003B679F /* main.m */; };
+		1494C11C17EE4AA1003B679F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C11B17EE4AA1003B679F /* AppDelegate.m */; };
+		1494C11E17EE4AA1003B679F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1494C11D17EE4AA1003B679F /* Default.png */; };
+		1494C12017EE4AA1003B679F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1494C11F17EE4AA1003B679F /* Default@2x.png */; };
+		1494C12217EE4AA1003B679F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1494C12117EE4AA1003B679F /* Default-568h@2x.png */; };
+		1494C12517EE4AA1003B679F /* Canvases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1494C12317EE4AA1003B679F /* Canvases.xcdatamodeld */; };
+		1494C12E17EE4BC0003B679F /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C12D17EE4BC0003B679F /* Canvas.m */; };
+		1494C13117EE4BC0003B679F /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C13017EE4BC0003B679F /* Users.m */; };
+		1494C13417EE4C0F003B679F /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C13317EE4C0F003B679F /* CoreDataHelper.m */; };
+		1494C13617EE4C75003B679F /* CanvasesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1494C13517EE4C75003B679F /* CanvasesStoryboard.storyboard */; };
+		1494C13C17EE4FDB003B679F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C13B17EE4FDB003B679F /* LoginViewController.m */; };
+		1494C13E17EEA4E9003B679F /* canvas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1494C13D17EEA4E9003B679F /* canvas.jpg */; };
+		14FD97FE17F73B2F00BBB66C /* NewMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD97FD17F73B2F00BBB66C /* NewMemberViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1494C10617EE4AA1003B679F /* Canvases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvases.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1494C10917EE4AA1003B679F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1494C10B17EE4AA1003B679F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1494C10D17EE4AA1003B679F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1494C10F17EE4AA1003B679F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1494C11317EE4AA1003B679F /* Canvases-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Canvases-Info.plist"; sourceTree = "<group>"; };
+		1494C11517EE4AA1003B679F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1494C11717EE4AA1003B679F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1494C11917EE4AA1003B679F /* Canvases-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Canvases-Prefix.pch"; sourceTree = "<group>"; };
+		1494C11A17EE4AA1003B679F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1494C11B17EE4AA1003B679F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1494C11D17EE4AA1003B679F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1494C11F17EE4AA1003B679F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1494C12117EE4AA1003B679F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1494C12417EE4AA1003B679F /* Canvases.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Canvases.xcdatamodel; sourceTree = "<group>"; };
+		1494C12C17EE4BC0003B679F /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		1494C12D17EE4BC0003B679F /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		1494C12F17EE4BC0003B679F /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		1494C13017EE4BC0003B679F /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		1494C13217EE4C0F003B679F /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		1494C13317EE4C0F003B679F /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		1494C13517EE4C75003B679F /* CanvasesStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CanvasesStoryboard.storyboard; sourceTree = "<group>"; };
+		1494C13A17EE4FDB003B679F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1494C13B17EE4FDB003B679F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1494C13D17EEA4E9003B679F /* canvas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canvas.jpg; sourceTree = "<group>"; };
+		14FD97FC17F73B2F00BBB66C /* NewMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMemberViewController.h; sourceTree = "<group>"; };
+		14FD97FD17F73B2F00BBB66C /* NewMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMemberViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1494C10317EE4AA1003B679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1494C10A17EE4AA1003B679F /* UIKit.framework in Frameworks */,
+				1494C10C17EE4AA1003B679F /* Foundation.framework in Frameworks */,
+				1494C10E17EE4AA1003B679F /* CoreGraphics.framework in Frameworks */,
+				1494C11017EE4AA1003B679F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1494C0FD17EE4AA0003B679F = {
+			isa = PBXGroup;
+			children = (
+				1494C11117EE4AA1003B679F /* Canvases */,
+				1494C10817EE4AA1003B679F /* Frameworks */,
+				1494C10717EE4AA1003B679F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1494C10717EE4AA1003B679F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1494C10617EE4AA1003B679F /* Canvases.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1494C10817EE4AA1003B679F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1494C10917EE4AA1003B679F /* UIKit.framework */,
+				1494C10B17EE4AA1003B679F /* Foundation.framework */,
+				1494C10D17EE4AA1003B679F /* CoreGraphics.framework */,
+				1494C10F17EE4AA1003B679F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1494C11117EE4AA1003B679F /* Canvases */ = {
+			isa = PBXGroup;
+			children = (
+				1494C12B17EE4B88003B679F /* Core Data */,
+				1494C11A17EE4AA1003B679F /* AppDelegate.h */,
+				1494C11B17EE4AA1003B679F /* AppDelegate.m */,
+				1494C11217EE4AA1003B679F /* Supporting Files */,
+				1494C13517EE4C75003B679F /* CanvasesStoryboard.storyboard */,
+				1494C13A17EE4FDB003B679F /* LoginViewController.h */,
+				1494C13B17EE4FDB003B679F /* LoginViewController.m */,
+				14FD97FC17F73B2F00BBB66C /* NewMemberViewController.h */,
+				14FD97FD17F73B2F00BBB66C /* NewMemberViewController.m */,
+				1494C13F17EEA4F1003B679F /* Images */,
+			);
+			path = Canvases;
+			sourceTree = "<group>";
+		};
+		1494C11217EE4AA1003B679F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1494C11317EE4AA1003B679F /* Canvases-Info.plist */,
+				1494C11417EE4AA1003B679F /* InfoPlist.strings */,
+				1494C11717EE4AA1003B679F /* main.m */,
+				1494C11917EE4AA1003B679F /* Canvases-Prefix.pch */,
+				1494C11D17EE4AA1003B679F /* Default.png */,
+				1494C11F17EE4AA1003B679F /* Default@2x.png */,
+				1494C12117EE4AA1003B679F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1494C12B17EE4B88003B679F /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				1494C12317EE4AA1003B679F /* Canvases.xcdatamodeld */,
+				1494C12F17EE4BC0003B679F /* Users.h */,
+				1494C13017EE4BC0003B679F /* Users.m */,
+				1494C12C17EE4BC0003B679F /* Canvas.h */,
+				1494C12D17EE4BC0003B679F /* Canvas.m */,
+				1494C13217EE4C0F003B679F /* CoreDataHelper.h */,
+				1494C13317EE4C0F003B679F /* CoreDataHelper.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		1494C13F17EEA4F1003B679F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1494C13D17EEA4E9003B679F /* canvas.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1494C10517EE4AA1003B679F /* Canvases */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1494C12817EE4AA1003B679F /* Build configuration list for PBXNativeTarget "Canvases" */;
+			buildPhases = (
+				1494C10217EE4AA1003B679F /* Sources */,
+				1494C10317EE4AA1003B679F /* Frameworks */,
+				1494C10417EE4AA1003B679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvases;
+			productName = Canvases;
+			productReference = 1494C10617EE4AA1003B679F /* Canvases.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1494C0FE17EE4AA0003B679F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 1494C10117EE4AA0003B679F /* Build configuration list for PBXProject "Canvases" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1494C0FD17EE4AA0003B679F;
+			productRefGroup = 1494C10717EE4AA1003B679F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1494C10517EE4AA1003B679F /* Canvases */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1494C10417EE4AA1003B679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1494C11617EE4AA1003B679F /* InfoPlist.strings in Resources */,
+				1494C11E17EE4AA1003B679F /* Default.png in Resources */,
+				1494C12017EE4AA1003B679F /* Default@2x.png in Resources */,
+				1494C12217EE4AA1003B679F /* Default-568h@2x.png in Resources */,
+				1494C13617EE4C75003B679F /* CanvasesStoryboard.storyboard in Resources */,
+				1494C13E17EEA4E9003B679F /* canvas.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1494C10217EE4AA1003B679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1494C11817EE4AA1003B679F /* main.m in Sources */,
+				1494C11C17EE4AA1003B679F /* AppDelegate.m in Sources */,
+				1494C12517EE4AA1003B679F /* Canvases.xcdatamodeld in Sources */,
+				1494C12E17EE4BC0003B679F /* Canvas.m in Sources */,
+				1494C13117EE4BC0003B679F /* Users.m in Sources */,
+				1494C13417EE4C0F003B679F /* CoreDataHelper.m in Sources */,
+				1494C13C17EE4FDB003B679F /* LoginViewController.m in Sources */,
+				14FD97FE17F73B2F00BBB66C /* NewMemberViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1494C11417EE4AA1003B679F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1494C11517EE4AA1003B679F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1494C12617EE4AA1003B679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1494C12717EE4AA1003B679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1494C12917EE4AA1003B679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Canvases/Canvases-Prefix.pch";
+				INFOPLIST_FILE = "Canvases/Canvases-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1494C12A17EE4AA1003B679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Canvases/Canvases-Prefix.pch";
+				INFOPLIST_FILE = "Canvases/Canvases-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1494C10117EE4AA0003B679F /* Build configuration list for PBXProject "Canvases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1494C12617EE4AA1003B679F /* Debug */,
+				1494C12717EE4AA1003B679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1494C12817EE4AA1003B679F /* Build configuration list for PBXNativeTarget "Canvases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1494C12917EE4AA1003B679F /* Debug */,
+				1494C12A17EE4AA1003B679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1494C12317EE4AA1003B679F /* Canvases.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1494C12417EE4AA1003B679F /* Canvases.xcdatamodel */,
+			);
+			currentVersion = 1494C12417EE4AA1003B679F /* Canvases.xcdatamodel */;
+			path = Canvases.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1494C0FE17EE4AA0003B679F /* Project object */;
+}
