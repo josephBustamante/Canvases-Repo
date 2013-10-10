@@ -2,7 +2,7 @@
 //  Canvas.m
 //  Canvases
 //
-//  Created by Joseph Bustamante on 9/21/13.
+//  Created by Joseph Bustamante on 10/8/13.
 //  Copyright (c) 2013 Joseph Bustamante. All rights reserved.
 //
 
@@ -12,5 +12,7 @@
 @implementation Canvas
 
 @dynamic title;
+@dynamic smallPicture;
+@dynamic desc;
 
 @end

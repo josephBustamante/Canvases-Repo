@@ -2,7 +2,7 @@
 //  Canvas.h
 //  Canvases
 //
-//  Created by Joseph Bustamante on 9/21/13.
+//  Created by Joseph Bustamante on 10/8/13.
 //  Copyright (c) 2013 Joseph Bustamante. All rights reserved.
 //
 
@@ -13,5 +13,7 @@
 @interface Canvas : NSManagedObject
 
 @property (nonatomic, retain) NSString * title;
+@property (nonatomic, retain) NSData * smallPicture;
+@property (nonatomic, retain) NSString * desc;
 
 @end

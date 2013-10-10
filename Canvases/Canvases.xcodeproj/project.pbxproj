@@ -18,12 +18,12 @@
 		1494C12017EE4AA1003B679F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1494C11F17EE4AA1003B679F /* Default@2x.png */; };
 		1494C12217EE4AA1003B679F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1494C12117EE4AA1003B679F /* Default-568h@2x.png */; };
 		1494C12517EE4AA1003B679F /* Canvases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1494C12317EE4AA1003B679F /* Canvases.xcdatamodeld */; };
-		1494C12E17EE4BC0003B679F /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C12D17EE4BC0003B679F /* Canvas.m */; };
 		1494C13117EE4BC0003B679F /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C13017EE4BC0003B679F /* Users.m */; };
 		1494C13417EE4C0F003B679F /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C13317EE4C0F003B679F /* CoreDataHelper.m */; };
 		1494C13617EE4C75003B679F /* CanvasesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1494C13517EE4C75003B679F /* CanvasesStoryboard.storyboard */; };
 		1494C13C17EE4FDB003B679F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C13B17EE4FDB003B679F /* LoginViewController.m */; };
 		1494C13E17EEA4E9003B679F /* canvas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1494C13D17EEA4E9003B679F /* canvas.jpg */; };
+		14FB54CE180519FA00CCF8F3 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FB54CD180519FA00CCF8F3 /* Canvas.m */; };
 		14FD97FE17F73B2F00BBB66C /* NewMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD97FD17F73B2F00BBB66C /* NewMemberViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +43,6 @@
 		1494C11F17EE4AA1003B679F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1494C12117EE4AA1003B679F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1494C12417EE4AA1003B679F /* Canvases.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Canvases.xcdatamodel; sourceTree = "<group>"; };
-		1494C12C17EE4BC0003B679F /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
-		1494C12D17EE4BC0003B679F /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 		1494C12F17EE4BC0003B679F /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
 		1494C13017EE4BC0003B679F /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
 		1494C13217EE4C0F003B679F /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		1494C13A17EE4FDB003B679F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1494C13B17EE4FDB003B679F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1494C13D17EEA4E9003B679F /* canvas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canvas.jpg; sourceTree = "<group>"; };
+		14FB54CC180519FA00CCF8F3 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		14FB54CD180519FA00CCF8F3 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 		14FD97FC17F73B2F00BBB66C /* NewMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMemberViewController.h; sourceTree = "<group>"; };
 		14FD97FD17F73B2F00BBB66C /* NewMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMemberViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,10 +137,10 @@
 				1494C12317EE4AA1003B679F /* Canvases.xcdatamodeld */,
 				1494C12F17EE4BC0003B679F /* Users.h */,
 				1494C13017EE4BC0003B679F /* Users.m */,
-				1494C12C17EE4BC0003B679F /* Canvas.h */,
-				1494C12D17EE4BC0003B679F /* Canvas.m */,
 				1494C13217EE4C0F003B679F /* CoreDataHelper.h */,
 				1494C13317EE4C0F003B679F /* CoreDataHelper.m */,
+				14FB54CC180519FA00CCF8F3 /* Canvas.h */,
+				14FB54CD180519FA00CCF8F3 /* Canvas.m */,
 			);
 			name = "Core Data";
 			sourceTree = "<group>";
@@ -223,11 +223,11 @@
 				1494C11817EE4AA1003B679F /* main.m in Sources */,
 				1494C11C17EE4AA1003B679F /* AppDelegate.m in Sources */,
 				1494C12517EE4AA1003B679F /* Canvases.xcdatamodeld in Sources */,
-				1494C12E17EE4BC0003B679F /* Canvas.m in Sources */,
 				1494C13117EE4BC0003B679F /* Users.m in Sources */,
 				1494C13417EE4C0F003B679F /* CoreDataHelper.m in Sources */,
 				1494C13C17EE4FDB003B679F /* LoginViewController.m in Sources */,
 				14FD97FE17F73B2F00BBB66C /* NewMemberViewController.m in Sources */,
+				14FB54CE180519FA00CCF8F3 /* Canvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
